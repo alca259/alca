@@ -358,4 +358,8 @@ dt {
   #header ul {
     display: none;
   }
+  
+  .container-youtube {
+    display: none;
+  }
 }

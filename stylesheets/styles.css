@@ -234,6 +234,7 @@ dt {
 #header ul li.fork {
   float: left;
   margin-left: 0px;
+  margin-right: 4px;
 }
 #header ul li.downloads {
   float: right;
@@ -280,6 +281,22 @@ dt {
   text-align: center;
 }
 
+/******************************** CONTAINERS ************************************/
+
+.container-main {
+	max-width: 800px;
+}
+.container-main .container-left {
+	max-width: 550px;
+	float: left;
+}
+.container-main .container-right {
+	width: 200px;
+	float: right;
+}
+
+.container-main .clear {clear: both;}
+
 /******************************** FOOTER ************************************/
 
 .footer {
@@ -324,6 +341,9 @@ dt {
   .footer #title .credits .right {
     float: none;
     display: block;
+  }
+  .container-main .container-right {
+    display: none;
   }
 }
 @media print, screen and (max-width: 480px) {
